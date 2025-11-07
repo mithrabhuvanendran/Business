@@ -1,0 +1,19 @@
+{
+    "members": [
+        {
+            "name": "Jeffrey Riley",
+            "designation": "Art Director",
+            "img": "https://picsum.photos/500/300?random=15"
+        },
+        {
+            "name": "Riley Beata",
+            "designation": "Web Developer",
+            "img": "https://picsum.photos/500/300?random=16"
+        },
+        {
+            "name": "Mark Alone",
+            "designation": "UX Designer",
+            "img": "https://picsum.photos/500/300?random=17"
+        }
+    ]
+}
