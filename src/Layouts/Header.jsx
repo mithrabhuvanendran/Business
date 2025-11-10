@@ -13,8 +13,8 @@ const Header = () => {
   const [isSideOpen, setIsSideOpen] = useState(false);
   return (
     <header
-      style={{ height: isOpen ? "30vh" : "12vh" }}
-      className="shadow-red-700 flex items-center justify-between px-8! py-5! bg-blue-600 text-white flex-col gap-4 lg:flex-row overflow-hidden"
+      style={{ height: isOpen ? "40vh" : "12vh" }}
+      className="shadow-red-700 flex items-center justify-between px-8! py-5! border bg-blue-600 text-white flex-col gap-10 lg:gap-4 lg:flex-row overflow-hidden"
     >
       <div className="flex items-center text-4xl cursor-pointer justify-between w-full lg:w-50">
         <div className="flex items-center gap-2">
@@ -64,9 +64,16 @@ const Header = () => {
             <h1 className="text-black font-bold text-xl">Quick Links</h1>
             <nav className="text-zinc-600 text-lg">
               <ul className="flex flex-col gap-2">
-                {["About Us", "Our Team", "Latest News", "Contact Us"].map((list) => (
-                  <li key={list} className="hover:text-blue-500 cursor-pointer hover:translate-x-2 hover:transition duration-200 ease-in">{list}</li>
-                ))}
+                {["About Us", "Our Team", "Latest News", "Contact Us"].map(
+                  (list) => (
+                    <li
+                      key={list}
+                      className="hover:text-blue-500 cursor-pointer hover:translate-x-2 hover:transition duration-200 ease-in"
+                    >
+                      {list}
+                    </li>
+                  )
+                )}
               </ul>
             </nav>
           </div>
@@ -74,8 +81,18 @@ const Header = () => {
           <div className="flex flex-col gap-5">
             <h1 className="text-black text-xl font-bold">Follow Us On</h1>
             <div className="text-zinc-600 flex gap-2">
-              {[<FaFacebookF />, <FaTwitter />, <FaLinkedin />, <FaYoutube />].map((icon) => (
-                <div key={icon} className="border border-zinc-200 p-3! rounded-full hover:bg-blue-500 hover:text-white cursor-pointer">{icon}</div>
+              {[
+                <FaFacebookF />,
+                <FaTwitter />,
+                <FaLinkedin />,
+                <FaYoutube />,
+              ].map((icon) => (
+                <div
+                  key={icon}
+                  className="border border-zinc-200 p-3! rounded-full hover:bg-blue-500 hover:text-white cursor-pointer"
+                >
+                  {icon}
+                </div>
               ))}
             </div>
           </div>
