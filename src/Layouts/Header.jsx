@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header
       style={{ height: isOpen ? "40vh" : "12vh" }}
-      className="shadow-red-700 flex items-center justify-between px-8! py-5! border bg-blue-600 text-white flex-col gap-10 lg:gap-4 lg:flex-row overflow-hidden"
+      className="shadow-red-700 flex items-center justify-between px-8! py-5! bg-blue-600 text-white flex-col gap-10 lg:gap-4 lg:flex-row overflow-hidden"
     >
       <div className="flex items-center text-4xl cursor-pointer justify-between w-full lg:w-50">
         <div className="flex items-center gap-2">
