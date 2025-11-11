@@ -3,17 +3,17 @@
         {
             "name": "Jeffrey Riley",
             "designation": "Art Director",
-            "img": "https://picsum.photos/500/300?random=15"
+            "img": "https://res.cloudinary.com/ddfhe3fan/image/upload/v1762774848/md-ishak-raman-x45xE1P6Fe4-unsplash_1_da3nyl.jpg"
         },
         {
             "name": "Riley Beata",
             "designation": "Web Developer",
-            "img": "https://picsum.photos/500/300?random=16"
+            "img": "https://res.cloudinary.com/ddfhe3fan/image/upload/v1762774847/vitaly-gariev-ft1ET-Sizow-unsplash_zwwfjc.jpg"
         },
         {
             "name": "Mark Alone",
             "designation": "UX Designer",
-            "img": "https://picsum.photos/500/300?random=17"
+            "img": "https://res.cloudinary.com/ddfhe3fan/image/upload/v1762774847/vitaly-gariev-0II7Uajp4A8-unsplash_anmltc.jpg"
         }
     ]
 }
